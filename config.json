@@ -1,9 +1,8 @@
 {
-    "title":"Clairestoria",
-    "subTitle":"晚来天欲雪，能饮一杯无",
+    "title":"Claire's Blog",
+    "subTitle":"相信未知的人往往并不无知",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "GMEEK_VERSION":"last",
-    "displayTitle":"Clairestoria",
     "themeMode":"manual",
     "dayTheme":"light",
     "nightTheme":"dark",
@@ -11,6 +10,8 @@
     "startSite":"04/08/2024",
     "i18n":"CN",
     "UTC":8,
+    "urlMode":"pinyin",
     "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
-    "bottomText":"相信未知的人往往并不无知"
+    "showPostSource":"1",
+    "bottomText":"晚来天欲雪，能饮一杯无"
 }
