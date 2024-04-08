@@ -1,6 +1,16 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
+    "title":"Clairestoria",
+    "subTitle":"晚来天欲雪，能饮一杯无",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "displayTitle":"Clairestoria",
+    "themeMode":"manual",
+    "dayTheme":"light",
+    "nightTheme":"dark",
+    "homeUrl":"http://blog.clairestoria.cyou",
+    "startSite":"04/08/2024",
+    "i18n":"CN",
+    "UTC":8,
+    "yearColorList":["#bc4c00", "#0969da", "#1f883d", "#A333D0"],
+    "bottomText":"相信未知的人往往并不无知"
 }
