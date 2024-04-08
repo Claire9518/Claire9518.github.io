@@ -56,41 +56,36 @@
 > "bottomText":"转载请注明出处",
 > ```
 > 
-> **配置参数**	**说明**
-> title	【必填】博客标题
-> subTitle	【必填】博客描述&自述
-> avatarUrl	【必填】博客头像
-> GMEEK_VERSION	【必填】Gmeek版本，一般写`last`也可以用具体tag版本
-> displayTitle	用于头像后面的标题展示，如果和`title`一致则不用添加
-> homeUrl	博客的主页地址，自定义域名时需要配置
-> faviconUrl	页面的favicon地址，如果和avatarUrl一致则不用添加
-> email	用于自动提交仓库时用，不添加也可以
-> startSite	用于页面底部显示网站运行天数
-> filingNum	用于页面底部显示备案信息
-> onePageListNum	用于首页每页展示的文章数量
-> singlePage	自定义独立页面，例如`about`或者`link`等
-> iconList	用于定义singlePage按钮展示的[SVG图标](https://primer.style/foundations/icons/#16px)
-> * 
-> 
->  (16px)，`about`和`link`内置无需定义
-> exlink	用于自定义首页右上角圆形按钮到外部链接功能，按钮图标定义在iconList中
-> commentLabelColor	用于自定义显示评论数量标签的颜色
-> yearColorList	用于自定义显示不同年份标签的颜色
-> i18n	用于定义博客语言，目前支持`EN`/`CN`/`RU`
-> UTC	用于定义[时区](https://en.wikipedia.org/wiki/List_of_UTC_offsets)
-> * 
-> 
-> themeMode	用于定义主题模式，默认为`manual`，也可选择`fix`[详细说明](https://blog.meekdai.com/post/Gmeek-liang-an-zhu-ti-pei-zhi-fang-shi.html)
-> * 
-> 
-> dayTheme	用于定义[亮主题](https://github.com/settings/appearance)
-> nightTheme	用于定义[暗主题](https://github.com/settings/appearance)
-> urlMode	用于定义文章链接生成模式，目前支持`pinyin`/`issue`/`ru_translit`
-> style	用于自定义文章页全局CSS
-> script	用于自定义文章页全局JavaScript
-> showPostSource	设置为1则在文章页显示issue链接按钮，设置为0则不显示
-> rssSplit	设置RSS输出的截断符号，默认`sentence`为第一句话，可配置其他特殊符号
-> bottomText	用于设置文章页面右下角显示的内容
+| **配置参数**       | **说明** | 
+|----------------|----------------|
+| title | 【必填】博客标题 |
+| subTitle | 【必填】博客描述&自述 |
+| avatarUrl | 【必填】博客头像 |
+| GMEEK_VERSION | 【必填】Gmeek版本，一般写`last`也可以用具体tag版本 |
+| displayTitle | 用于头像后面的标题展示，如果和`title`一致则不用添加 |
+| homeUrl | 博客的主页地址，自定义域名时需要配置 |
+| faviconUrl | 页面的favicon地址，如果和avatarUrl一致则不用添加 |
+| email | 用于自动提交仓库时用，不添加也可以 |
+| startSite | 用于页面底部显示网站运行天数 |
+| filingNum | 用于页面底部显示备案信息 |
+| onePageListNum | 用于首页每页展示的文章数量 |
+| singlePage | 自定义独立页面，例如`about`或者`link`等 |
+| iconList | 用于定义singlePage按钮展示的[SVG图标](https://primer.style/foundations/icons/#16px) (16px)，`about`和`link`内置无需定义 |
+| exlink | 用于自定义首页右上角圆形按钮到外部链接功能，按钮图标定义在iconList中 |
+| commentLabelColor | 用于自定义显示评论数量标签的颜色 |
+| yearColorList | 用于自定义显示不同年份标签的颜色 |
+| i18n | 用于定义博客语言，目前支持`EN`/`CN`/`RU` |
+| UTC | 用于定义[时区](https://en.wikipedia.org/wiki/List_of_UTC_offsets) |
+| themeMode| 用于定义主题模式，默认为`manual`，也可选择`fix`[详细说明](https://blog.meekdai.com/post/Gmeek-liang-an-zhu-ti-pei-zhi-fang-shi.html) |
+| dayTheme | 用于定义[亮主题](https://github.com/settings/appearance) |
+| nightTheme | 用于定义[暗主题](https://github.com/settings/appearance) |
+| urlMode | 用于定义文章链接生成模式，目前支持`pinyin`/`issue`/`ru_translit` |
+| style | 用于自定义文章页全局CSS |
+| script | 用于自定义文章页全局JavaScript |
+| showPostSource | 设置为1则在文章页显示issue链接按钮，设置为0则不显示 |
+| rssSplit | 设置RSS输出的截断符号，默认`sentence`为第一句话，可配置其他特殊符号 |
+| bottomText | 用于设置文章页面右下角显示的内容 |
+
 > ## 三、常见问题
 > ### 1. 搭建不成功
 > 多半是没有按照安装步骤来，其实搭建就这2步，不要自己乱点乱设置，就不会有问题。
